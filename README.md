@@ -1,7 +1,7 @@
 Prerequisites
 
 Download:
-1. scenario-simulator-package-2.3.1.2.zip
+1. scenario-simulator-package-3.0.0.1.zip
 
 To build Docker image call `./build.sh`
 
