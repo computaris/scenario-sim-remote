@@ -16,23 +16,16 @@
  */
 package com.computaris.tools.scenario.simulator;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.opencloud.tools.scenario.simulator.ScenarioSimulatorFactory;
 import org.apache.log4j.Logger;
-import org.apache.logging.log4j.core.impl.Log4jContextFactory;
 import org.robotframework.javalib.library.AnnotationLibrary;
 import org.robotframework.remoteserver.RemoteServer;
 
-import com.computaris.tools.scenario.simulator.SimulatorFacadeRemoteDecorator;
 import com.opencloud.tools.scenario.simulator.management.SimulatorFacade;
 
 public final class ScenarioSimulatorMain extends AnnotationLibrary {
     private static final String SIMULATOR_RHINOREMOTE_PORT = "com.computaris.robotremote.port";
-    private static final String REMOTE_KEYWORD_DOCUMENTATION_EXPLANATION = "https://docs.opencloud.com/ocdoc/books/scenario-simulator/2.3.0/scenario-simulator-user-guide/managing-the-scenario-simulator/help-with-simulator-commands.html";
+    private static final String REMOTE_KEYWORD_DOCUMENTATION_EXPLANATION = "https://docs.opencloud.com/ocdoc/books/scenario-simulator/3.0.0/scenario-simulator-user-guide/managing-the-scenario-simulator/help-with-simulator-commands.html";
     private static final String REMOTE_LIBRARY_LOCATION = "com/computaris/tools/scenario/simulator/*.class";
 
     public ScenarioSimulatorMain() {

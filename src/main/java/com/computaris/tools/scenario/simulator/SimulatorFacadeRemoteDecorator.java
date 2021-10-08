@@ -27,7 +27,6 @@ import com.opencloud.tools.scenario.simulator.monitoring.DialogStatsSnapshot;
 import com.opencloud.tools.scenario.simulator.monitoring.SessionOutcome;
 import com.opencloud.tools.scenario.simulator.monitoring.SessionStatusSnapshot;
 import com.opencloud.tools.scenario.simulator.protocol.ProtocolAdaptorException;
-import com.computaris.tools.scenario.simulator.BaseSimulatorFacadeRemoteDecorator;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.robotframework.javalib.annotation.ArgumentNames;
